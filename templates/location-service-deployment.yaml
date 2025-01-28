@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    {{- include "location-service.labels" . | nindent 4 }}
+  name: {{ .Values.config.servicename }}
+  namespace: {{ .Release.Namespace }}
+spec:
+  replicas: {{ .Values.config.replicaNumber }}
+  selector:
+    matchLabels:
+      app: {{ .Values.config.servicename }}
+  template:
+    metadata:
+      labels:
+        {{- include "location-service.labels" . | nindent 8 }}
+    spec:
+      {{- include "cassandra.waitForDatabase" . | nindent 6 }}
+      containers:
+        {{- include "location-service.container" . | nindent 8 }}

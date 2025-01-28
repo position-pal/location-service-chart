@@ -1,0 +1,48 @@
+config:
+  image:
+    repository: positionpal/location-service
+    tag: 3.0.2
+    pullPolicy: IfNotPresent
+
+  servicename: locservice
+  replicaNumber: 2
+  requiredContactPointNr: 2
+
+  managementPort: 8558
+  httpPort: 8080
+  grpcPort: 5052
+
+  mapboxApi: ""
+  
+  akka:
+    licenseKey: ""
+
+  resources:
+    limits:
+      cpu: "1"
+      memory: "512Mi"
+    requests:
+      cpu: "0.5"
+      memory: "256Mi"
+
+# Configure the connection information for the rabbtimq service
+rabbitmq:
+  username: user
+  password: RPsC4hHCzUHz4Pmm
+  namespace: rabbitmq
+  serviceName: rabbitmq
+  virtualHost: /
+  port: 5672
+
+# Configure the connection information for the cassandra service
+cassandra:
+
+  image:
+    debug: true
+ 
+  dbUser:
+    user: admin
+    password: password
+
+  replicaCount: 2
+  initDBConfigMap: script-db-configmap
