@@ -14,10 +14,6 @@ spec:
       targetPort: {{ .Values.config.httpPort }}
       name: http
     - protocol: TCP
-      port: {{ .Values.config.managementPort }}
-      targetPort: {{ .Values.config.managementPort }}
-      name: management
-    - protocol: TCP
       port: {{ .Values.config.grpcPort }}
       targetPort: {{ .Values.config.grpcPort }}
       name: grpc
