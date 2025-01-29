@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/position-pal/location-service-chart/compare/1.0.0...1.1.0) (2025-01-29)
+
+### Features
+
+* don't expose management port on service file ([9794b9d](https://github.com/position-pal/location-service-chart/commit/9794b9da2a1a13da418dcb3ec1067149c3b57330))
+
 ## 1.0.0 (2025-01-28)
 
 ### Features
