@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/position-pal/location-service-chart/compare/1.0.0...1.1.0) (2025-02-03)
+
+### Features
+
+* change akka license key retrieval ([765a884](https://github.com/position-pal/location-service-chart/commit/765a884c32732c0c9c85269aa314ab8f124d38d5))
+
 ## 1.0.0 (2025-02-03)
 
 ### Features
