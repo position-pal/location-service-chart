@@ -14,8 +14,7 @@ config:
 
   mapboxApi: ""
   
-  akka:
-    licenseKey: ""
+  akkaLicenseKey: ""
 
   resources:
     limits:
