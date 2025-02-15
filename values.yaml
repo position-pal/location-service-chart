@@ -1,7 +1,7 @@
 config:
   image:
     repository: positionpal/location-service
-    tag: 3.1.0@sha256:97c24ab4dbdb325e13528d9b1253610848e63ef4aadbdaae8007fc564a1645f9
+    tag: 4.0.4@sha256:0d09e652d8205b4d3ad077efc594b62c481794a2e7036f895342a8256b333cf2
     pullPolicy: IfNotPresent
 
   servicename: locservice
