@@ -1,3 +1,19 @@
+## [1.2.0](https://github.com/position-pal/location-service-chart/compare/1.1.0...1.2.0) (2025-02-15)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/location-service docker tag to v3.0.3 ([#3](https://github.com/position-pal/location-service-chart/issues/3)) ([80edbeb](https://github.com/position-pal/location-service-chart/commit/80edbeb02f97bba74386175894cfe8954778a506))
+
+### Build and continuous integration
+
+* **deps:** add renovate.json file ([6cade15](https://github.com/position-pal/location-service-chart/commit/6cade15b5930e4d810d62b984e8a40b3a40b11d9))
+* **deps:** pin dependencies ([#2](https://github.com/position-pal/location-service-chart/issues/2)) ([05611d7](https://github.com/position-pal/location-service-chart/commit/05611d7060ca1ea8b536731263664f7ccac73f05))
+
+### Refactoring
+
+* edit service structure ([2c38ada](https://github.com/position-pal/location-service-chart/commit/2c38adaa1850fd78f99b5529bd103e855fd63a13))
+* update name for service ([840adf0](https://github.com/position-pal/location-service-chart/commit/840adf02e20bf506b7dbe3e1b3848154e9f67e22))
+
 ## [1.1.0](https://github.com/position-pal/location-service-chart/compare/1.0.0...1.1.0) (2025-02-03)
 
 ### Features
