@@ -1,3 +1,16 @@
+## [1.3.0](https://github.com/position-pal/location-service-chart/compare/1.2.0...1.3.0) (2025-02-15)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/location-service docker tag to v3.1.0 ([#6](https://github.com/position-pal/location-service-chart/issues/6)) ([cf6b900](https://github.com/position-pal/location-service-chart/commit/cf6b9003def74d37cebf0d7b2da92aa1df88a69d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.123 ([#4](https://github.com/position-pal/location-service-chart/issues/4)) ([dd890fb](https://github.com/position-pal/location-service-chart/commit/dd890fb16b1f5b680969765e746ec911aab65993))
+* **deps:** update helm release cassandra to v12.1.3 ([#5](https://github.com/position-pal/location-service-chart/issues/5)) ([fa1d28e](https://github.com/position-pal/location-service-chart/commit/fa1d28e8f497e79836ef63ba7f4fe897e4d318f4))
+* **deps:** update node.js to 22.14 ([#7](https://github.com/position-pal/location-service-chart/issues/7)) ([bcd3b19](https://github.com/position-pal/location-service-chart/commit/bcd3b19ec3bf9d80bdc586580c1cd6b34195d286))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.2.0 ([#8](https://github.com/position-pal/location-service-chart/issues/8)) ([de63d35](https://github.com/position-pal/location-service-chart/commit/de63d35816d2c6e11458230e62568d30f0a35489))
+
 ## [1.2.0](https://github.com/position-pal/location-service-chart/compare/1.1.0...1.2.0) (2025-02-15)
 
 ### Dependency updates
