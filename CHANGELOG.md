@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/position-pal/location-service-chart/compare/1.4.0...1.5.0) (2025-02-17)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/location-service docker tag to v4.0.5 ([#12](https://github.com/position-pal/location-service-chart/issues/12)) ([04aa324](https://github.com/position-pal/location-service-chart/commit/04aa324bdd3449b23f71f6eab1b55c62f0ada761))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.124 ([#11](https://github.com/position-pal/location-service-chart/issues/11)) ([94c1047](https://github.com/position-pal/location-service-chart/commit/94c1047a50144cbd9295c3d93b9fd4bf6516952b))
+
 ## [1.4.0](https://github.com/position-pal/location-service-chart/compare/1.3.0...1.4.0) (2025-02-15)
 
 ### Dependency updates
