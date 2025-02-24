@@ -1,3 +1,15 @@
+## [1.7.0](https://github.com/position-pal/location-service-chart/compare/1.6.0...1.7.0) (2025-02-24)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/location-service docker tag to v4.0.8 ([#17](https://github.com/position-pal/location-service-chart/issues/17)) ([fcf0346](https://github.com/position-pal/location-service-chart/commit/fcf0346ed28a0d84219dac6fd369e9e0bc48038f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.125 ([#16](https://github.com/position-pal/location-service-chart/issues/16)) ([c8bf468](https://github.com/position-pal/location-service-chart/commit/c8bf468b470b8e11ffb2bcefccdef2a34bb1e81b))
+* **deps:** update helm release cassandra to v12.1.4 ([#15](https://github.com/position-pal/location-service-chart/issues/15)) ([22582e7](https://github.com/position-pal/location-service-chart/commit/22582e7a14b4c072f33eca3ed74551f800b1edd4))
+
+### Build and continuous integration
+
+* **deps:** update azure/setup-helm action to v4.3.0 ([#14](https://github.com/position-pal/location-service-chart/issues/14)) ([f348830](https://github.com/position-pal/location-service-chart/commit/f3488307bd6a0a77d4cfc7b149c88c891fa7f8bb))
+
 ## [1.6.0](https://github.com/position-pal/location-service-chart/compare/1.5.0...1.6.0) (2025-02-17)
 
 ### Dependency updates
