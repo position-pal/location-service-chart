@@ -1,35 +1,34 @@
-config:
-  image:
-    repository: positionpal/location-service
-    tag: 4.0.8@sha256:0e4fda7227f7bce641ddaa3dbc4b0f8a184bd043f5a280ceb9229197c7aedf87
-    pullPolicy: IfNotPresent
+image:
+  repository: positionpal/location-service
+  tag: 4.0.8@sha256:0e4fda7227f7bce641ddaa3dbc4b0f8a184bd043f5a280ceb9229197c7aedf87
+  pullPolicy: IfNotPresent
 
-  servicename: locservice
-  replicaNumber: 2
-  requiredContactPointNr: 2
+serviceName: locservice
+replicaNumber: 2
+requiredContactPointNr: 2
 
-  managementPort: 8558
-  httpPort: 8080
-  grpcPort: 5052
+managementPort: 8558
+httpPort: 8080
+grpcPort: 5052
 
-  mapboxApi: ""
-  
-  akkaLicenseKey: ""
+mapboxApi: ""
 
-  resources:
-    limits:
-      cpu: "1"
-      memory: "512Mi"
-    requests:
-      cpu: "0.5"
-      memory: "256Mi"
+akkaLicenseKey: ""
+
+resources:
+  limits:
+    cpu: "1"
+    memory: "512Mi"
+  requests:
+    cpu: "0.5"
+    memory: "256Mi"
 
 # Configure the connection information for the rabbtimq service
 rabbitmq:
-  username: user
-  password: RPsC4hHCzUHz4Pmm
-  namespace: rabbitmq
-  serviceName: rabbitmq
+  username: ""
+  password: ""
+  namespace: ""
+  serviceName: ""
   virtualHost: /
   port: 5672
 

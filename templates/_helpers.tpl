@@ -26,12 +26,12 @@ initContainers:
 {{- end -}}
 
 {{- define "location-service.labels" -}}
-app: {{ .Values.config.servicename }}
+app: {{ .Values.serviceName }}
 {{- end -}}
 
 {{- define "location-service.container" -}}
-- name: {{ .Values.config.servicename }}
-  image: "{{ .Values.config.image.repository }}:{{ .Values.config.image.tag }}"
+- name: {{ .Values.serviceName }}
+  image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
   readinessProbe:
     httpGet:
       path: /ready
@@ -42,16 +42,16 @@ app: {{ .Values.config.servicename }}
       port: management
   ports:
   - name: management
-    containerPort: {{ .Values.config.managementPort }}
+    containerPort: {{ .Values.managementPort }}
     protocol: TCP
   - name: http
-    containerPort: {{ .Values.config.httpPort }}
+    containerPort: {{ .Values.httpPort }}
     protocol: TCP
   - name: grpc
-    containerPort: {{ .Values.config.grpcPort }}
+    containerPort: {{ .Values.grpcPort }}
     protocol: TCP
   resources:
-    {{- toYaml .Values.config.resources | nindent 4 }}
+    {{- toYaml .Values.resources | nindent 4 }}
   env:
     - name: AKKA_LICENSE_KEY
       valueFrom:
@@ -90,9 +90,9 @@ app: {{ .Values.config.servicename }}
     - name: RABBITMQ_USERNAME
       value: {{ .Values.rabbitmq.username | quote }}
     - name: GRPC_PORT
-      value: {{ .Values.config.grpcPort | quote }}
+      value: {{ .Values.grpcPort | quote }}
     - name: HTTP_PORT
-      value: {{ .Values.config.httpPort | quote }}
+      value: {{ .Values.httpPort | quote }}
     - name: REQUIRED_CONTACT_POINT_NR
-      value: {{ .Values.config.requiredContactPointNr | quote }}
+      value: {{ .Values.requiredContactPointNr | quote }}
 {{- end -}}
