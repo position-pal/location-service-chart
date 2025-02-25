@@ -1,3 +1,13 @@
+## [1.8.0](https://github.com/position-pal/location-service-chart/compare/1.7.0...1.8.0) (2025-02-25)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/location-service docker tag to v4.0.9 ([#18](https://github.com/position-pal/location-service-chart/issues/18)) ([70e62f9](https://github.com/position-pal/location-service-chart/commit/70e62f942153a37abd760568e08137b7ec554e9a))
+
+### Refactoring
+
+* change structure of values.yaml fille ([9c8bf58](https://github.com/position-pal/location-service-chart/commit/9c8bf587e9cd33d89ccbef52546a39cb800824a9))
+
 ## [1.7.0](https://github.com/position-pal/location-service-chart/compare/1.6.0...1.7.0) (2025-02-24)
 
 ### Dependency updates
