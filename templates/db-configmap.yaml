@@ -147,11 +147,17 @@ data:
     CREATE TABLE IF NOT EXISTS UserGroupsByUserId (
       UserId TEXT,
       GroupId TEXT,
+      Name TEXT,
+      Surname TEXT,
+      Email TEXT,
       PRIMARY KEY (UserId, GroupId)
     );
 
     CREATE TABLE IF NOT EXISTS UserGroupsByGroupId (
       GroupId TEXT,
       UserId TEXT,
+      Name TEXT,
+      Surname TEXT,
+      Email TEXT,
       PRIMARY KEY (GroupId, UserId)
     );
