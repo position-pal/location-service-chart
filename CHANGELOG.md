@@ -1,3 +1,14 @@
+## [1.10.0](https://github.com/position-pal/location-service-chart/compare/1.9.0...1.10.0) (2025-03-05)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/location-service docker tag to v5 ([#23](https://github.com/position-pal/location-service-chart/issues/23)) ([f97c74c](https://github.com/position-pal/location-service-chart/commit/f97c74c5983e48a14c128d36c92118d6c2c75bc0))
+* **deps:** update helm release cassandra to v12.2.1 ([#22](https://github.com/position-pal/location-service-chart/issues/22)) ([33201ec](https://github.com/position-pal/location-service-chart/commit/33201ec2e27ebd60d7901fd0249ea791bcab80b1))
+
+### Refactoring
+
+* **storage:** change db schemas to include also user info ([#21](https://github.com/position-pal/location-service-chart/issues/21)) ([5a1831a](https://github.com/position-pal/location-service-chart/commit/5a1831a9c0feeda2c9732b3c9589978247b883ce))
+
 ## [1.9.0](https://github.com/position-pal/location-service-chart/compare/1.8.0...1.9.0) (2025-02-28)
 
 ### Dependency updates
