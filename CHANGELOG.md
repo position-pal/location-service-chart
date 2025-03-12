@@ -1,3 +1,9 @@
+## [1.15.0](https://github.com/position-pal/location-service-chart/compare/1.14.0...1.15.0) (2025-03-12)
+
+### Features
+
+* **storage:** add ScopedUserRoutesInfo table ([1899be3](https://github.com/position-pal/location-service-chart/commit/1899be34699085a7c7663427edd452f179042262))
+
 ## [1.14.0](https://github.com/position-pal/location-service-chart/compare/1.13.0...1.14.0) (2025-03-12)
 
 ### Dependency updates
