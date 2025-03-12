@@ -1,6 +1,6 @@
 image:
   repository: positionpal/location-service
-  tag: 5.0.3@sha256:3537d7cc2539116666028e84ab1e5180fedc32a2a7709d9fea4d0a53a1179bb8
+  tag: 5.1.0@sha256:8273cc0ab0d20a62c8dcc4effcc16c30e43c0ee88f8ffe1b4e4085e3592d00d5
   pullPolicy: IfNotPresent
 
 serviceName: locservice
