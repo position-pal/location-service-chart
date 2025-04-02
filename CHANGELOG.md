@@ -1,3 +1,9 @@
+## [1.21.0](https://github.com/position-pal/location-service-chart/compare/1.20.0...1.21.0) (2025-04-02)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/location-service docker tag to v5.5.1 ([#35](https://github.com/position-pal/location-service-chart/issues/35)) ([cdf2e99](https://github.com/position-pal/location-service-chart/commit/cdf2e99936ddb03a5c85002ca4fc6e0b87e0f13a))
+
 ## [1.20.0](https://github.com/position-pal/location-service-chart/compare/1.19.0...1.20.0) (2025-04-01)
 
 ### Dependency updates
