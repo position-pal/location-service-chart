@@ -1,3 +1,13 @@
+## [1.21.1](https://github.com/position-pal/location-service-chart/compare/1.21.0...1.21.1) (2025-04-04)
+
+### Dependency updates
+
+* **deps:** update helm release cassandra to v12.2.3 ([#36](https://github.com/position-pal/location-service-chart/issues/36)) ([aa04ff3](https://github.com/position-pal/location-service-chart/commit/aa04ff39951356a752a18118e87e36d90a3e45b1))
+
+### Documentation
+
+* edit README ([4de9feb](https://github.com/position-pal/location-service-chart/commit/4de9feb6271df3b4671fd0f79fe501ae1b794efe))
+
 ## [1.21.0](https://github.com/position-pal/location-service-chart/compare/1.20.0...1.21.0) (2025-04-02)
 
 ### Dependency updates
