@@ -1,3 +1,19 @@
+## [1.25.0](https://github.com/position-pal/location-service-chart/compare/1.24.0...1.25.0) (2025-09-11)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/location-service docker tag to v5.9.0 ([#78](https://github.com/position-pal/location-service-chart/issues/78)) ([f4d2843](https://github.com/position-pal/location-service-chart/commit/f4d28430a32fb7c64aca65e2c3a50d774e84614f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.140 ([#71](https://github.com/position-pal/location-service-chart/issues/71)) ([325d0de](https://github.com/position-pal/location-service-chart/commit/325d0de9644e8383114b88b9aade69bf393d9a12))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.141 ([#75](https://github.com/position-pal/location-service-chart/issues/75)) ([5ab97db](https://github.com/position-pal/location-service-chart/commit/5ab97dba6fa333e174394bb0b852bdcf83726c1d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.142 ([#77](https://github.com/position-pal/location-service-chart/issues/77)) ([f7ffa57](https://github.com/position-pal/location-service-chart/commit/f7ffa57b4fc87d3c0b4053a818640276780b179e))
+* **deps:** update helm release cassandra to v12.3.11 ([#73](https://github.com/position-pal/location-service-chart/issues/73)) ([ab5f721](https://github.com/position-pal/location-service-chart/commit/ab5f7215fee1af11d6d046771782bb9094b39007))
+* **deps:** update node.js to 22.19 ([#74](https://github.com/position-pal/location-service-chart/issues/74)) ([0277e15](https://github.com/position-pal/location-service-chart/commit/0277e15245ad75534beb87716845dbc2e980ed7f))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v5 ([#76](https://github.com/position-pal/location-service-chart/issues/76)) ([3a159eb](https://github.com/position-pal/location-service-chart/commit/3a159eb0ddb93bf4c2fc902363158faa9c45eefd))
+* **deps:** update azure/setup-helm action to v4.3.1 ([#72](https://github.com/position-pal/location-service-chart/issues/72)) ([bf335a0](https://github.com/position-pal/location-service-chart/commit/bf335a0e120144c261121ea16262864bdbcb7058))
+
 ## [1.24.0](https://github.com/position-pal/location-service-chart/compare/1.23.0...1.24.0) (2025-08-15)
 
 ### Dependency updates
